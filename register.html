@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemist Registry - The Lab</title>
+</head>
+<body>
+
+    <header>
+        <h1>The Formulator's Lab</h1>
+        <p>Precision Cosmetic Chemistry & Batch Tracking</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="phases.html">Formulation Phases</a></li>
+                <li><a href="register.html"><strong>Join the Registry</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Formulator & Chemist Registration</h2>
+            <p>Register your credentials to gain access to the central chemical database, batch calculators, and raw material sourcing archives.</p>
+        </section>
+
+        <section>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Personal & Professional Profile</legend>
+                    
+                    <p>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname" required placeholder="e.g., Vivian Mwangi">
+                    </p>
+                    
+                    <p>
+                        <label for="email">Institutional Email Address:</label><br>
+                        <input type="email" id="email" name="email" required placeholder="username@strathmore.edu">
+                    </p>
+
+                    <p>
+                        <label for="focus-area">Primary Formulation Focus:</label><br>
+                        <select id="focus-area" name="focus-area">
+                            <option value="brightening">Hyper-pigmentation & Brightening</option>
+                            <option value="barrier">Barrier Repair & Lactonic Textures</option>
+                            <option value="trichology">Film-Forming Polymers & Trichology</option>
+                            <option value="stability">pH Stability & Preservation</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Lab Preferences</legend>
+                    
+                    <p>Preferred Work Session Style:</p>
+                    <input type="radio" id="deepwork" name="work-style" value="deepwork" checked>
+                    <label for="deepwork">Intense Deep Work (Locking In)</label><br>
+                    <input type="radio" id="collaborative" name="work-style" value="collaborative">
+                    <label for="collaborative">Linear Group Peer Review</label>
+                    
+                    <p>Core Raw Material Interests (Select all that apply):</p>
+                    <input type="checkbox" id="actives" name="interests" value="actives">
+                    <label for="actives">High-Potency Actives (SymWhite 377, Arbutin)</label><br>
+                    <input type="checkbox" id="silicones" name="interests" value="silicones">
+                    <label for="silicones">Functional Silicones (Trimethylsiloxysilicate)</label><br>
+                    <input type="checkbox" id="polymers" name="interests" value="polymers">
+                    <label for="polymers">Film-Forming Polymers (Polysilicone-29)</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Documentation</legend>
+                    <p>
+                        <label for="comments">Briefly describe your approach to logical consistency in chemical engineering:</label><br>
+                        <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Enter text here..."></textarea>
+                    </p>
+                </fieldset>
+                
+                <p>
+                    <input type="submit" value="Submit Registration to Database">
+                    <input type="reset" value="Clear Form Elements">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 The Formulator's Lab. Secure User Data Ingestion.</p>
+    </footer>
+
+</body>
+</html>
